@@ -17,11 +17,4 @@ spec:
           image: gcr.io/inner-root-456714-i7/action-cicd:287cb11727747be745655a3f58b9ba2b965668b7
           ports:
             - containerPort: 8080
-          resources:
-            requests:
-              memory: "256Mi"
-              cpu: "250m"
-            limits:
-              memory: "512Mi"
-              cpu: "500m"
           # Optional: args to override CMD
