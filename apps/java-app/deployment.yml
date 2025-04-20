@@ -14,7 +14,7 @@ spec:
     spec:
       containers:
         - name: java
-          image: gcr.io/inner-root-456714-i7/action-cicd:287cb11727747be745655a3f58b9ba2b965668b7
+          image: gcr.io/inner-root-456714-i7/action-cicd:68b1cd791e6aa58dc83d5d2677e8637584d9d5f3
           ports:
             - containerPort: 8080
           # Optional: args to override CMD
